@@ -22,5 +22,15 @@ module register_hl # (parameter N = 16)
 //    0       1        0       inh              hold
 //    0       1        1       inh              inl
 //    0       0        0       hold             hold
+    if (clear) begin
+      outh <= 0;
+      outl <= 0;
+    end else if (loadh) begin
+      outh <= inh;
+      outl <= inl;
+    end else if (loadl) begin
+      outh <= inh;
+      outl <= inl;
+      end
   end	
 endmodule
