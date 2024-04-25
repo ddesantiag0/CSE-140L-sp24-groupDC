@@ -1,57 +1,87 @@
-CSE 140L Lab 1
-Student name 1, PID
-Student name 2, PID
-Academic Integrity
-Your work will not be graded unless the signatures of all members of the group are present
-beneath the honor code.
+# CSE 140L Lab 1 Report
+
+## Team Members
+- Student name 1, PID
+- Student name 2, PID
+
+## Academic Integrity
 To uphold academic integrity, students shall:
-● Complete and submit academic work that is their own and that is an honest and fair
-representation of their knowledge and abilities at the time of submission.
-● Know and follow the standards of CSE 140L and UCSD.
-Please sign (type) your name(s) below the following statement:
-I pledge to be fair to my classmates and instructors by completing all of my academic work with
-integrity. This means that I will respect the standards set by the instructor and institution, be
-responsible for the consequences of my choices, honestly represent my knowledge and abilities,
-and be a community member that others can trust to do the right thing even when no one is
-watching. I will always put learning before grades, and integrity before performance. I pledge to
-excel with integrity.
-Type full names of teammates:
-________________________________
-________________________________
-________________________________
-Please include the following screenshots:
-1. Screenshot of Modelsim/Questa output (last page of transcript/console).
-The screenshot should show your output vs the expected output. It should also show the
-score.
-[Insert image here]
-2. Be sure to upload all of your source code (.sv files), including any associated .txt files for
-$readmem statements.
-3. Waveforms.
-Include screenshot of waveform for one entire multiplication cycle (i.e. the waveform
-should include the portion where reset is 1 until the portion where the done flag is 1)
-[Insert image here]
-4. RTL diagrams of the following
-a. Quartus RTL view of top level of the multiplier (it should show the connections
-between data path and control path).
-b. Quartus RTL view of the control unit.
-c. Quartus RTL view of the data path.
-[Insert images here]
-These questions won’t be graded but it would be helpful to know the answers to these for future
-labs.
-On combinational & sequential logic
-1. Which always_* keyword do you use for combinational logic of a single line of code?
-2. Which keywords would you use along with the above answered always_* keyword if
-there are multiple lines of code in the combinational logic?
-3. Is there any other keyword you can use for combinational logic with a single line of
-code?
-4. Which keyword is used to denote sequential logic?
-5. What’s the difference between sequential and combinational logic?
-On blocking & nonblocking assignment
-1. Which symbol indicates the blocking assignment?
-2. Which symbol indicates the nonblocking assignment?
-3. Why do we need blocking assignments?
-4. Why do we need non-blocking assignments?
-5. What’s the difference between blocking and non-blocking assignments?
-On logic and wire
-1. What’s the difference between keywords : logic and wire?
-2. Would you prefer to assign the output of sequential logic to wire or logic? Explain why.
+- Complete and submit academic work that is their own and that is an honest and fair representation of their knowledge and abilities at the time of submission.
+- Know and follow the standards of CSE 140L and UCSD.
+
+### Integrity Pledge
+"I pledge to be fair to my classmates and instructors by completing all of my academic work with integrity. This means that I will respect the standards set by the instructor and institution, be responsible for the consequences of my choices, honestly represent my knowledge and abilities, and be a community member that others can trust to do the right thing even when no one is watching. I will always put learning before grades, and integrity before performance. I pledge to excel with integrity."
+
+#### Signatures
+- __Student name 1__
+- __Student name 2__
+- __Student name 3__
+
+## Submission Requirements
+
+### Screenshots
+
+1. **Modelsim/Questa Output**
+   *Description: Screenshot should show your output vs the expected output and the score.*
+   ![Modelsim/Questa Output](path-to-image.png)
+
+2. **Source Code**
+   *Note: All source code files (.sv) and associated .txt files for `$readmem` statements must be uploaded.*
+
+3. **Waveforms**
+   *Description: Include screenshot of waveform for one entire multiplication cycle, from reset to done flag.*
+   ![Waveform Screenshot](path-to-image.png)
+
+4. **RTL Diagrams**
+   a. Quartus RTL view of top level of the multiplier.
+   ![Top Level Multiplier RTL Diagram](path-to-image.png)
+
+   b. Quartus RTL view of the control unit.
+   ![Control Unit RTL Diagram](path-to-image.png)
+
+   c. Quartus RTL view of the data path.
+   ![Data Path RTL Diagram](path-to-image.png)
+
+## Self-Review Questions
+
+### On Combinational & Sequential Logic
+
+1. **Combinational Logic Single Line**
+   Which `always_*` keyword do you use for combinational logic of a single line of code?
+
+2. **Combinational Logic Multiple Lines**
+   Which keywords would you use along with the above answered `always_*` keyword if there are multiple lines of code in the combinational logic?
+
+3. **Alternate Combinational Logic Keyword**
+   Is there any other keyword you can use for combinational logic with a single line of code?
+
+4. **Sequential Logic Keyword**
+   Which keyword is used to denote sequential logic?
+
+5. **Difference Between Sequential and Combinational Logic**
+   What’s the difference between sequential and combinational logic?
+
+### On Blocking & Nonblocking Assignment
+
+1. **Blocking Assignment Symbol**
+   Which symbol indicates the blocking assignment?
+
+2. **Nonblocking Assignment Symbol**
+   Which symbol indicates the nonblocking assignment?
+
+3. **Need for Blocking Assignments**
+   Why do we need blocking assignments?
+
+4. **Need for Non-blocking Assignments**
+   Why do we need non-blocking assignments?
+
+5. **Difference Between Blocking and Non-blocking Assignments**
+   What’s the difference between blocking and non-blocking assignments?
+
+### On Logic and Wire
+
+1. **Difference Between Logic and Wire**
+   What’s the difference between the keywords: `logic` and `wire`?
+
+2. **Output Assignment for Sequential Logic**
+   Would you prefer to assign the output of sequential logic to `wire` or `logic`? Explain why.
