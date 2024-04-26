@@ -16,5 +16,14 @@ module upcreg(
 //	   1		0            0
 //	   0		1		   upc_next
 //	   0	    0          upc+1
+    if (reset) {
+      upc <= 1'b0;
+    }
+    else if (load_incr) {
+      upc <= upc_next;
+    }
+    else {
+      upc <= upc+1;
+    }
   end
 endmodule    
