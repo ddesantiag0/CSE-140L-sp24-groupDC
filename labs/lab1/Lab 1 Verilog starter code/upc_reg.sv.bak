@@ -9,18 +9,17 @@ module upcreg(
   output logic [4:0] upc);
 
   always_ff @ (posedge clk, posedge reset) begin
-    if (reset) begin
+    if (reset) {
       upc <= 5'b00000;
-    end
-    else if (load_incr) begin
+    }
+    else if (load_incr) {
       upc <= upc_next;
-    end
-    else begin
+    }
+    else {
       upc <= upc+1;
-    end
+    }
   end
-endmodule 
-  
+endmodule   
 // fill in guts
 //   if(...) upc <= ...; else if(...) upc <= ...; else ... 
 //   reset    load_incr	    upc

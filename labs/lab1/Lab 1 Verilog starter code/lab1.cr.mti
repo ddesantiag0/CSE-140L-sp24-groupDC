@@ -1,0 +1,130 @@
+{{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv}} {0 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:12 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv 
+-- Compiling module register_hl
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(16): (vlog-2730) Undefined variable: 'outh'.
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(17): (vlog-2730) Undefined variable: 'outl'.
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(20): (vlog-2730) Undefined variable: 'outh'.
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(21): (vlog-2730) Undefined variable: 'outl'.
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(24): (vlog-2730) Undefined variable: 'outh'.
+** Error: H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv(25): (vlog-2730) Undefined variable: 'outl'.
+End time: 20:14:13 on Apr 26,2024, Elapsed time: 0:00:01
+
+} {6.0 12.0} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv}} {0 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:12 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv 
+-- Compiling module register
+** Error: (vlog-13069) H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv(24): near ":": syntax error, unexpected ':', expecting ';'.
+End time: 20:14:12 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {6.0 7.0} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:10 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv 
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+End time: 20:14:10 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv}} {0 vlog\ -work\ work\ -vopt\ -sv\ \{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab\ 1\ Verilog\ starter\ code/right_shift_register.sv\}\nQuesta\ Intel\ Starter\ FPGA\ Edition-64\ vlog\ 2021.2\ Compiler\ 2021.04\ Apr\ 14\ 2021\nStart\ time:\ 20:14:13\ on\ Apr\ 26,2024\nvlog\ -reportprogress\ 300\ -work\ work\ -vopt\ -sv\ H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab\ 1\ Verilog\ starter\ code/right_shift_register.sv\ \n--\ Compiling\ module\ right_shift_register\n**\ Error:\ H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab\ 1\ Verilog\ starter\ code/right_shift_register.sv(20):\ (vlog-2730)\ Undefined\ variable:\ 'clear'.\n**\ Error:\ (vlog-13069)\ H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab\ 1\ Verilog\ starter\ code/right_shift_register.sv(21):\ near\ \"\;\":\ syntax\ error,\ unexpected\ '\;',\ expecting\ ','\ or\ '\}'.\nEnd\ time:\ 20:14:13\ on\ Apr\ 26,2024,\ Elapsed\ time:\ 0:00:00\n\n {6.0 8.0} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv}} {0 {vlog -work work -vopt -sv {H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:13 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv 
+-- Compiling module robsmult
+** Error: (vlog-13069) H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv(21): near "zq": syntax error, unexpected IDENTIFIER, expecting .* or '.'.
+End time: 20:14:13 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {6.0 7.0} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:11 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv 
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+End time: 20:14:11 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv}} {1 {vlog -work work -vopt -sv {H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:10 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv 
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+End time: 20:14:10 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:11 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv 
+-- Compiling module robs_datapath
+
+Top level modules:
+	robs_datapath
+End time: 20:14:11 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:10 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv 
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+End time: 20:14:10 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:12 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv 
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+End time: 20:14:12 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:10 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv 
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+End time: 20:14:10 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:12 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv 
+-- Compiling module rom
+
+Top level modules:
+	rom
+End time: 20:14:12 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:11 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv 
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+End time: 20:14:11 on Apr 26,2024, Elapsed time: 0:00:00
+
+} {} {}} {{H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv}} {1 {vlog -work work -vopt -sv {H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 20:14:10 on Apr 26,2024
+vlog -reportprogress 300 -work work -vopt -sv H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv 
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+End time: 20:14:11 on Apr 26,2024, Elapsed time: 0:00:01
+
+} {} {}}

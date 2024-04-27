@@ -19,9 +19,10 @@ module register # (parameter N = 8)
 //     0       1      in   (update output)
     if (clear) begin
       out <= 0;
-      end else if (load) begin
-        out <= in:
-      end
+    end
+    else if (!clear && load) begin
+      out <= in;
+    end
 
 	
 // Aside: What would be the impact of leaving posedge clear out of 
