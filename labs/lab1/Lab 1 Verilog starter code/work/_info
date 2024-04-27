@@ -11,7 +11,7 @@ cModel Technology
 dC:/intelFPGA_lite/21.1
 vaddsub
 Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z1 !s110 1714188582
+Z1 !s110 1714191468
 !i10b 1
 !s100 15[fQ32zd`cCo2UMLT`=C1
 IhMi=k<9X`<oX[de<9^04c0
@@ -20,19 +20,19 @@ Z2 dH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code
 Z3 w1714183699
 8H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv
 FH:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv
-!i122 152
+!i122 180
 L0 4 22
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2021.2;73
 r1
 !s85 0
 31
-!s108 1714188581.000000
+Z6 !s108 1714191468.000000
 !s107 H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\addsub.sv|
 !i113 0
-Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z7 tCvgOpt 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
 vcounter_down
 R0
 R1
@@ -44,22 +44,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv
-!i122 153
+!i122 181
 L0 3 17
 R4
 R5
 r1
 !s85 0
 31
-Z8 !s108 1714188582.000000
-!s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv|
-!i113 0
 R6
+!s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv|
+!i113 0
 R7
+R8
 vmux2
 R0
-R1
+Z9 !s110 1714191469
 !i10b 1
 !s100 ^HLegb>3@j^6<jGPKX<<61
 IfJRZ2JIYLK`[n[JXUI=P52
@@ -68,22 +68,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv
-!i122 154
+!i122 182
 L0 3 19
 R4
 R5
 r1
 !s85 0
 31
-R8
+Z10 !s108 1714191469.000000
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv|
 !i113 0
-R6
 R7
+R8
 vmux3
 R0
-R1
+R9
 !i10b 1
 !s100 KI4Q3[ES>j2@c17PK9z3e1
 IFJDVokFcf;5S1OE0c7NM70
@@ -92,22 +92,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv
-!i122 155
+!i122 183
 L0 3 21
 R4
 R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv|
 !i113 0
-R6
 R7
+R8
 vmux5
 R0
-R1
+R9
 !i10b 1
 !s100 dE]8L6d1f_Yo2ACeB]]jm1
 IBc^=E4fcaPUU3>d]Q]]l]0
@@ -116,22 +116,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv
-!i122 156
+!i122 184
 L0 2 33
 R4
 R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv|
 !i113 0
-R6
 R7
+R8
 vregister
 R0
-R1
+R9
 !i10b 1
 !s100 :`RncIOQ=Lo4D=n78^b9X3
 IV9XdM]SbQ:`IUFW<PWVIS1
@@ -140,22 +140,22 @@ R2
 w1714188183
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv
-!i122 157
+!i122 185
 L0 3 30
 R4
 R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv|
 !i113 0
-R6
 R7
+R8
 vregister_hl
 R0
-R1
+R9
 !i10b 1
 !s100 8>JBVaEfR^9=kAQCGh<:I1
 IoMm=Hl:932=dP86gDcDC?1
@@ -164,22 +164,22 @@ R2
 w1714188560
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv
-!i122 158
+!i122 186
 L0 5 22
 R4
 R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv|
 !i113 0
-R6
 R7
+R8
 vright_shift_register
 R0
-Z9 !s110 1714188583
+R9
 !i10b 1
 !s100 4WDf;RRoWaziS1WFg0ILg2
 IV5E?4R:4>5oGETX]@5Je22
@@ -188,22 +188,22 @@ R2
 w1714188049
 8H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\right_shift_register.sv
 FH:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\right_shift_register.sv
-!i122 159
+!i122 187
 L0 2 47
 R4
 R5
 r1
 !s85 0
 31
-Z10 !s108 1714188583.000000
+R10
 !s107 H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\right_shift_register.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\right_shift_register.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\right_shift_register.sv|
 !i113 0
-R6
 R7
+R8
 vrobertsonstest
 R0
-R9
+Z11 !s110 1714191470
 !i10b 1
 !s100 hGdaKYhNkfUzXgV^Go91D1
 IY?R65d1m1ZZXbFiUO[Oo92
@@ -212,7 +212,7 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv
-!i122 160
+!i122 188
 L0 7 115
 R4
 R5
@@ -221,13 +221,13 @@ r1
 31
 R10
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv|
 !i113 0
-R6
 R7
+R8
 vrobs_control_unit_micro
 R0
-R9
+R11
 !i10b 1
 !s100 ?IIP1jF8Sgn>TbC^hjc<Z3
 I1`B9T528Sd`1TN3CBffST2
@@ -236,22 +236,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv
-!i122 161
+!i122 189
 L0 4 28
 R4
 R5
 r1
 !s85 0
 31
-R10
+Z12 !s108 1714191470.000000
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv|
 !i113 0
-R6
 R7
+R8
 vrobs_datapath
 R0
-R9
+R11
 !i10b 1
 !s100 [0_gUL4;Lc2NnaDPHR2R90
 I?PGFF4T[o7?zN6D39QIA61
@@ -260,22 +260,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv
-!i122 162
+!i122 190
 L0 3 37
 R4
 R5
 r1
 !s85 0
 31
-R10
+R12
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv|
 !i113 0
-R6
 R7
+R8
 vrobsmult
 R0
-R9
+R11
 !i10b 1
 !s100 oXA;5zonHcMIXd]KYL2D[2
 IBa^_6QWJ30bGP`2U[j0]k3
@@ -284,22 +284,22 @@ R2
 w1714188292
 8H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv
 FH:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv
-!i122 163
+!i122 191
 L0 3 26
 R4
 R5
 r1
 !s85 0
 31
-R10
+R12
 !s107 H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:\GitHub\CSE-140L-sp24-groupDC\labs\lab1\Lab 1 Verilog starter code\robsmult.sv|
 !i113 0
-R6
 R7
+R8
 vrom
 R0
-R9
+R11
 !i10b 1
 !s100 3RT3FdgnCjI;PzG`;9Ki92
 IUod9kYKIYEklazo6zF0f02
@@ -308,22 +308,22 @@ R2
 R3
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv
-!i122 164
+!i122 192
 L0 2 37
 R4
 R5
 r1
 !s85 0
 31
-R10
+R12
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv|
 !i113 0
-R6
 R7
+R8
 vupcreg
 R0
-!s110 1714188584
+R11
 !i10b 1
 !s100 o=BokhTaJKco8<OWUYHMN3
 IIPR;[ZQm:I[Cig42Lj9?L0
@@ -332,16 +332,16 @@ R2
 w1714187727
 8H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv
 FH:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv
-!i122 165
+!i122 193
 L0 4 19
 R4
 R5
 r1
 !s85 0
 31
-R10
+R12
 !s107 H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv|
 !i113 0
-R6
 R7
+R8

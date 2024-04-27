@@ -6,7 +6,7 @@ module robs_datapath #(parameter WIDTH = 8)
 	input [WIDTH-1:0] multiplier, multiplicand,
 	input[14:0]  c,
 	output [WIDTH*2-1:0] product,
-	output zq, zr
+	output logic zq, zr
 	);
 	
 	// Internal signals of the datapath module
