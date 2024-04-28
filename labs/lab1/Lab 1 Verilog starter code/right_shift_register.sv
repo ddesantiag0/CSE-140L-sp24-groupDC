@@ -20,13 +20,13 @@ module right_shift_register #(parameter WIDTH = 16)(
 //    if (mode) begin
 //      out <= 0;
 //    end
-    if (enable && !mode) begin
-      out <= {in[WIDTH-1], in[WIDTH-1:1]};
-    end
-    else if (enable && mode) begin
-      out <= {in[WIDTH-1:1]};
-    end
-  end
+      if (enable && !mode) begin
+        out <= {in[WIDTH-1], in[WIDTH-1:1]};
+      end
+      else if (enable && mode) begin
+        out <= {in[WIDTH-1:1]};
+      end
+  	end
 
 /* logical right shift fills in 0s from the left
   logic[3:0] a, b;

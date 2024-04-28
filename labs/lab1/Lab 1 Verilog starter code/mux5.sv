@@ -21,14 +21,14 @@ module mux5 (input        d0, d1, d2, d3, d4,
 //  6	   0
 //  7	   0	    s = 3'b111
 
-always_comb begin
-    case (s)
+  always_comb begin
+      case (s)
         3'b000: y = d0;
         3'b001: y = d1;
         3'b010: y = d2;
         3'b011: y = d3;
         3'b100: y = d4;
         default: y = 0;
-    endcase
-end
+      endcase
+  end
 endmodule

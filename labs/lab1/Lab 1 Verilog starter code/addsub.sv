@@ -15,7 +15,7 @@ module addsub #(parameter dw=8)		 // dw = data width
 //1             dataa + datab;						
 //0             dataa - datab;   
   always_comb begin
-    if (~add_sub) begin
+    if (!add_sub) begin
       result = dataa - datab;
     end
     else begin

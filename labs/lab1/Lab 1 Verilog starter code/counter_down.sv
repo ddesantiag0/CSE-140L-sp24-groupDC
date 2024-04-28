@@ -7,13 +7,13 @@ module counter_down	#(parameter dw=8, WIDTH=7)
   input                 ena,
   output logic [dw-1:0] result);
 
-  always @(posedge clk)
-    begin
-      if (reset) begin
-        result <= WIDTH; //set result to WIDTH if reset is 1
-      end else if (ena) begin
-        result <= result - 1; //decrement result by 1 if ena is 1
-      end
+  always @(posedge clk) begin
+    if (reset) begin
+      result <= WIDTH; //set result to WIDTH if reset is 1
+    end 
+    else if (!reset && ena) begin
+      result <= result - 1; //decrement result by 1 if ena is 1
     end
+  end
 
 endmodule	

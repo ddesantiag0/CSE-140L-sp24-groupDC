@@ -13,11 +13,14 @@ module mux3 #(parameter WIDTH = 8)
 //  1     1	   d2
 
   always_comb begin
-    case (s)
-      2'b00: y = d0;
-      2'b01: y = d1;
-      2'b10: y = d2;
-      2'b11: y = d2;
-    endcase
+    if (s[1]) begin
+      y = d2;
+    end
+    else if (!s[1] && s[0]) begin
+      y = d1;
+    end
+    else begin
+      y = d0;
+    end
   end
 endmodule

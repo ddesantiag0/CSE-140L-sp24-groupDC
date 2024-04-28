@@ -10,9 +10,9 @@ module upcreg(
 
   always_ff @ (posedge clk, posedge reset) begin
     if (reset) begin
-      upc <= 5'b00000;
+      upc <= 0;
     end
-    else if (load_incr) begin
+    else if (!reset && load_incr) begin
       upc <= upc_next;
     end
     else begin
