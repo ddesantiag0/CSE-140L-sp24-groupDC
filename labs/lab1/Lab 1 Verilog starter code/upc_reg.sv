@@ -19,12 +19,12 @@ module upcreg(
       upc <= upc+1;
     end
   end
-endmodule 
-  
+endmodule
+
 // fill in guts
-//   if(...) upc <= ...; else if(...) upc <= ...; else ... 
+//   if(...) upc <= ...; else if(...) upc <= ...; else ...
 //   reset    load_incr	    upc
-//     1		1			 0
-//	   1		0            0
-//	   0		1		   upc_next
-//	   0	    0          upc+1 
+//     1		     1			     0
+//	   1		     0           0
+//	   0		     1		   upc_next
+//	   0	       0         upc+1 

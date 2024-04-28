@@ -6,13 +6,13 @@ module right_shift_register #(parameter WIDTH = 16)(
     input                    mode, // arithmetic (0) or logical (1) shift
     output logic [WIDTH-1:0] out); // shifted input
 
-	
+
 	always @(posedge clk) begin
 // fill in the guts	-- holds or shifts by 1 bit position
 // this is a sequential operation, requiring nonblocking (<=) assignments
 // if(...) out <= ...;
 // else if(...) out <= ...;
-//    enable   mode      out  
+//    enable   mode      out
 //      0       0        hold (no change in output)
 //		0       1	     hold
 //		1       1	     load and logical right shift
@@ -24,7 +24,7 @@ module right_shift_register #(parameter WIDTH = 16)(
         out <= {in[WIDTH-1], in[WIDTH-1:1]};
       end
       else if (enable && mode) begin
-        out <= {in[WIDTH-1:1]};
+        out <= {0, in[WIDTH-1:1]};
       end
   	end
 
@@ -32,7 +32,7 @@ module right_shift_register #(parameter WIDTH = 16)(
   logic[3:0] a, b;
   assign a = 4'b1000;	// = +8 decimal
   assign b = a>>1;      // b = 4'b0100  = +4 decimal
-// arithmetic right shift preserves MSB (sign bit of a two's comp. number) 
+// arithmetic right shift preserves MSB (sign bit of a two's comp. number)
 // note input and output have to be declared type signed (two's comp)
   logic signed[3:0] a, b;
   assign a = 4'b1000;   // = -8 decimal

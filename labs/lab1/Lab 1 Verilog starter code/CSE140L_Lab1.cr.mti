@@ -1,0 +1,247 @@
+{{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv 
+-- Compiling module register_hl
+
+Top level modules:
+	register_hl
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv 
+-- Compiling module register
+
+Top level modules:
+	register
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:57 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv 
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+End time: 01:56:57 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv 
+-- Compiling module right_shift_register
+
+Top level modules:
+	right_shift_register
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv 
+-- Compiling module robsmult
+
+Top level modules:
+	robsmult
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robsmult.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module robsmult
+
+Top level modules:
+	robsmult
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register_hl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register_hl
+
+Top level modules:
+	register_hl
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robertsonstest.sv 
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_data_path.sv 
+-- Compiling module robs_datapath
+
+Top level modules:
+	robs_datapath
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:57 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/addsub.sv 
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+End time: 01:56:57 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:57 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv 
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+End time: 01:56:57 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux3.sv 
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:57 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv 
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+End time: 01:56:57 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/upc_reg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/robs_control_unit_micro.sv 
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/rom.sv 
+-- Compiling module rom
+
+Top level modules:
+	rom
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv}} {1 {vlog -work work -sv {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 01:56:58 on Apr 28,2024
+vlog -reportprogress 300 -work work -sv C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/mux5.sv 
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+End time: 01:56:58 on Apr 28,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/counter_down.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+
+} {} {}} {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module right_shift_register
+** Warning: (vlog-2121) C:/Users/Apple5005/Documents/GitHub/CSE-140L-sp24-groupDC/labs/lab1/Lab 1 Verilog starter code/right_shift_register.sv(27): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	right_shift_register
+
+} {} {}}
