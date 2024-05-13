@@ -41,32 +41,6 @@ ct_mod_N Dct(
     .clk(Pulse), .rst(Reset), .en(Dayadv || H_max), .modulus(ND),
     .ct_out(TDay), .ct_max(D_max));
 
-// Define registers for alarm settings
-ct_mod_N Mreg(
-    .clk(Pulse), .rst(Reset), .en(AMen), .modulus(60),
-    .ct_out(AMin));
-
-ct_mod_N Hreg(
-    .clk(Pulse), .rst(Reset), .en(AHen), .modulus(24),
-    .ct_out(AHrs));
-
-ct_mod_N Dreg(  // For setting the alarm day
-    .clk(Pulse), .rst(Reset), .en(DEn), .modulus(ND),
-    .ct_out(ADay));
-
-// Multiplexers for selecting display values based on settings
-MUX_2x7 hours_mux(
-    .input0_time(THrs),
-    .input1_alarm(AHrs),
-    .select(Alarmset),
-    .output_display(Hrs));
-
-MUX_2x7 minutes_mux(
-    .input0_time(TMin),
-    .input1_alarm(AMin),
-    .select(Alarmset),
-    .output_display(Min));
-
 // Display drivers for each segment
 lcd_int Sdisp(
     .bin_in(TSec),
