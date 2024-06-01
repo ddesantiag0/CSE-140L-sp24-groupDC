@@ -10,31 +10,32 @@ module top_level (
 logic         write_en;        // data memory write enable        
 logic[7:0] raddr,           // read address pointer
               waddr;           // write address pointer
-logic[7:0] data_in;         // to dat_mem
-wire [7:0] data_out;        // from dat_mem
+logic[7:0]    data_in;         // to dat_mem
+wire [7:0]    data_out;        // from dat_mem
 // LFSR control input and data output
 logic         LFSR_en;         // 1: advance LFSR; 0: hold		
 // taps, start, pre_len are constants loaded from dat_mem [61:63]
-logic[   5:0] taps,            // LFSR feedback pattern temp register
+logic[5:0]    taps,            // LFSR feedback pattern temp register
               start;           // LFSR initial state temp register
-logic[   7:0] pre_len;         // preamble (_____) length           
+logic[7:0]    pre_len;         // preamble (_____) length           
 logic         taps_en,         // 1: load taps register; 0: hold
               start_en,        //   same for start temp register
               prelen_en;       //   same for preamble length temp
 logic         load_LFSR;       // copy taps and start into LFSR
-wire [   5:0] LFSR;            // LFSR current value            
-logic[   7:0] scram;           // encrypted message
-logic[   7:0] ct_inc;          // prog count step (default = +1)
+wire [5:0]    LFSR;            // LFSR current value            
+logic[7:0]    scram;           // encrypted message
+logic[7:0]    ct_inc;          // prog count step (default = +1)
+
 // instantiate the data memory 
-dat_mem dm1(.clk, .write_en, .raddr, .waddr,
-            .data_in, .data_out);
+dat_mem dm1(.clk(clk), .write_en(write_en), .raddr(raddr), .waddr(waddr),
+            .data_in(data_in), .data_out(data_out));
 
 // instantiate the LFSR core
-// need one for Lab 4; may want 6 for Lab 5
-lfsr6 l6(.clk, .en(LFSR_en), .init,
-         .taps, .start, .state(LFSR));
+lfsr6 l6(.clk(clk), .en(LFSR_en), .init(load_LFSR),
+         .taps(taps), .start(start), .state(LFSR));
 
 logic[7:0] ct;                  // your program counter
+
 // this can act as a program counter
 always @(posedge clk)
   if(init)
@@ -109,10 +110,25 @@ Watch how the testbench performs Prog. 4. You will be doing the same
 operation, but at a more detailed, hardware level, instead of at the 
 higher level the testbench uses.       
 */
-	     end
+
+      if (ct < pre_len + 6) begin
+        // Encrypt preamble
+        raddr     = 'd0;
+        waddr     = 'd64 + (ct - 6);
+        data_in   = 8'h5F ^ {2'b00, LFSR};
+        write_en  = 'b1;
+        LFSR_en   = 'b1;
+      end else if (ct < pre_len + 6 + 50) begin
+        // Encrypt message
+        raddr     = ct - (pre_len + 6);
+        waddr     = 'd64 + pre_len + (ct - (pre_len + 6));
+        data_in   = data_out ^ {2'b00, LFSR};
+        write_en  = 'b1;
+        LFSR_en   = 'b1;
+      end
+    end
   endcase
 end 
-
 
 // load control registers from dat_mem 
 always @(posedge clk)
