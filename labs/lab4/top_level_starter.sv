@@ -8,7 +8,7 @@ module top_level (
 // dat_mem interface
 // you will need this to talk to the data memory
 logic         write_en;        // data memory write enable        
-logic[7:0] raddr,           // read address pointer
+logic[7:0]    raddr,           // read address pointer
               waddr;           // write address pointer
 logic[7:0]    data_in;         // to dat_mem
 wire [7:0]    data_out;        // from dat_mem
