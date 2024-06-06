@@ -129,6 +129,12 @@ higher level the testbench uses.
         write_en  = 'b1;
         LFSR_en   = 'b1;
         scram     = data_in;
+      end else begin
+        // Write padding underscores
+        raddr     = 'd0;
+        data_in   = 8'h5F;
+        waddr     = 'd64 + (ct - 7);
+        write_en  = 'b1;
       end
     end
   endcase
