@@ -13,7 +13,7 @@ logic[7:0]    raddr,           // read address pointer
 logic[7:0]    data_in;         // to dat_mem
 wire [7:0]    data_out;        // from dat_mem
 // LFSR control input and data output
-logic         LFSR_en;         // 1: advance LFSR; 0: hold		
+logic         LFSR_en;         // 1: advance LFSR; 0: hold        
 // taps, start, pre_len are constants loaded from dat_mem [61:63]
 logic[5:0]    taps,            // LFSR feedback pattern temp register
               start;           // LFSR initial state temp register
@@ -41,13 +41,13 @@ always @(posedge clk)
   if(init)
     ct <= 0;
   else 
-	ct <= ct + ct_inc;     // default: next_ct = ct+1
+    ct <= ct + ct_inc;     // default: next_ct = ct+1
 
 // control decode logic (does work of instr. mem and control decode)
 always_comb begin
 // list defaults here; case needs list only exceptions
   write_en  = 'b0;         // data memory write enable        
-  LFSR_en   = 'b0;         // 1: advance LFSR; 0: hold		
+  LFSR_en   = 'b0;         // 1: advance LFSR; 0: hold        
 // enables to load control constants read from dat_mem[61:63] 
   prelen_en = 'b0;         // 1: load pre_len temp register; 0: hold
   taps_en   = 'b0;         // 1: load taps temp register; 0: hold
@@ -61,7 +61,7 @@ always_comb begin
   case(ct)
     0,1: begin   
            raddr     = 'd0;         // memory read address pointer
-   		   waddr     = 'd64;    	// memory write address pointer
+           waddr     = 'd64;        // memory write address pointer
          end       // no op to wait for things to settle from init
 // first tasks to be done:
 // 1) raddr = 61, prelen_en = 1
@@ -82,19 +82,19 @@ always_comb begin
          end               // load LFSR start temp reg
     4:   begin
            raddr      = 'd63;
-		   waddr      = 'd64;
+           waddr      = 'd64;
            start_en   = 'b1;
          end
-	5:   begin
-	       raddr      = 'd0;
-		   waddr      =	'd64;
-		   load_LFSR  = 'b1;   // copy taps and start temps into LFSR
-		 end
-   	6:   begin             
-	       raddr      = 'd0;
-		   waddr      =	'd64;
+    5:   begin
+           raddr      = 'd0;
+           waddr      = 'd64;
+           load_LFSR  = 'b1;   // copy taps and start temps into LFSR
+         end
+    6:   begin             
+           raddr      = 'd0;
+           waddr      = 'd64;
          end       
-	default: begin
+    default: begin
 /* What happens next?
    1)  for pre_len cycles, bitwise XOR ASCII _ = 0x5f with current
      LFSR state; prepend LFSR state with 2'b00 to pad to 8 bits
@@ -116,12 +116,12 @@ higher level the testbench uses.
       if (ct - 7 < pre_len) begin
         // Encrypt preamble
         raddr     = 'd0;
-        data_in   = data_out ^ {2'b00, LFSR};
+        data_in   = 8'h5F ^ {2'b00, LFSR};
         waddr     = 'd64 + (ct - 7);
         write_en  = 'b1;
         LFSR_en   = 'b1;
-        scram 	  = data_in;
-      end else begin
+        scram     = data_in;
+      end else if (ct - 7 < pre_len + 50) begin
         // Encrypt message
         raddr     = ct - pre_len - 6;
         data_in   = data_out ^ {2'b00, LFSR};
@@ -148,6 +148,6 @@ always @(posedge clk)
    This may be more or fewer clock cycles than mine. 
    Test bench waits for a done flag, so generate one at some time.
 */
-  assign done = (ct == pre_len + 56 + 6);
+assign done = (ct == pre_len + 56 + 6);
 
 endmodule
