@@ -55,6 +55,8 @@ always_comb begin
   load_LFSR = 'b0;         // copy taps and start into LFSR
 // PC normally advances by 1
 // override to go back in a subroutine or forward/back in a branch 
+  data_in = 0;
+  scram = 0;
   ct_inc    = 'b1;         // PC normally advances by 1
   case(ct)
     0,1: begin   
@@ -88,7 +90,7 @@ always_comb begin
 		   waddr      =	'd64;
 		   load_LFSR  = 'b1;   // copy taps and start temps into LFSR
 		 end
-    6:   begin             
+   	6:   begin             
 	       raddr      = 'd0;
 		   waddr      =	'd64;
          end       
@@ -111,20 +113,22 @@ operation, but at a more detailed, hardware level, instead of at the
 higher level the testbench uses.       
 */
 
-      if (ct < pre_len + 6) begin
+      if (ct - 7 < pre_len) begin
         // Encrypt preamble
         raddr     = 'd0;
-        waddr     = 'd64 + (ct - 6);
-        data_in   = 8'h5F ^ {2'b00, LFSR};
-        write_en  = 'b1;
-        LFSR_en   = 'b1;
-      end else if (ct < pre_len + 6 + 50) begin
-        // Encrypt message
-        raddr     = ct - (pre_len + 6);
-        waddr     = 'd64 + pre_len + (ct - (pre_len + 6));
         data_in   = data_out ^ {2'b00, LFSR};
+        waddr     = 'd64 + (ct - 7);
         write_en  = 'b1;
         LFSR_en   = 'b1;
+        scram 	  = data_in;
+      end else begin
+        // Encrypt message
+        raddr     = ct - pre_len - 6;
+        data_in   = data_out ^ {2'b00, LFSR};
+        waddr     = 'd64 + (ct - 7);
+        write_en  = 'b1;
+        LFSR_en   = 'b1;
+        scram     = data_in;
       end
     end
   endcase
@@ -144,6 +148,6 @@ always @(posedge clk)
    This may be more or fewer clock cycles than mine. 
    Test bench waits for a done flag, so generate one at some time.
 */
-assign done = &ct[5:0];
+  assign done = (ct == pre_len + 56 + 6);
 
 endmodule
