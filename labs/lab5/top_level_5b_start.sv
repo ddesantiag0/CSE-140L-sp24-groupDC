@@ -139,49 +139,58 @@ module top_level_5b(
     done      = 'b0;
     data_in   = 'b0;
 
+    // Break down cycle_ct cases
     case(cycle_ct)
       0: begin 
-        raddr     = 64;                // starting address for encrypted data to be loaded into device
-        waddr     = 'd0;               // starting address for storing decrypted results into data mem
-      end                              // no op
-      1: begin 
-        load_LFSR = 'b1;               // initialize the 6 LFSRs
-        raddr     = 64;
-        start     = 8'h5f ^ data_out;
-        waddr     = 'd0;
-        LFSR_en   = 'b1;
-      end                              // no op
-      2: begin         
-        LFSR_en   = 'b1;               // advance the 6 LFSRs     
-        raddr     = 64;
-        waddr     = 'd0;
+        // Step 1: Initialize raddr and waddr
+        raddr = 64;                // starting address for encrypted data to be loaded into device
+        waddr = 'd0;               // starting address for storing decrypted results into data mem
       end
-      3: begin                         // training seq. -- run LFSRs & advance raddr
-        LFSR_en   = 'b1;
-        raddr     = 64 + cycle_ct - 2; // advance raddr
-        waddr     = 'd0;
+      1: begin 
+        // Step 2: Load LFSR and set start
+        load_LFSR = 'b1;           // initialize the 6 LFSRs
+        raddr = 64;
+        start = 8'h5f ^ data_out;
+      end
+      2: begin 
+        // Step 3: Enable LFSR
+        LFSR_en = 'b1;             // advance the 6 LFSRs     
+        raddr = 64;
+        waddr = 'd0;
+      end
+      3: begin 
+        // Step 4: Training sequence
+        LFSR_en = 'b1;
+        raddr = 64 + cycle_ct - 2; // advance raddr
+        waddr = 'd0;
       end
       72: begin
-        done      = 'b1;               // send acknowledge back to test bench to halt simulation
-        raddr     = 'd0;
-        waddr     = 'd0; 
+        // Step 5: Done
+        done = 'b1;                // send acknowledge back to test bench to halt simulation
+        raddr = 'd0;
+        waddr = 'd0; 
       end
-      default: begin                   // covers cycle_ct 4-71
-        if(cycle_ct <= 8) begin         // turn on write enable
+      default: begin
+        // Covers cycle_ct 4-71
+        if(cycle_ct <= 8) begin
+          // Step 6: Turn on write enable if within first 8 cycles
           LFSR_en = 'b1;
-          raddr   = 64 + cycle_ct - 2;
-          waddr   = 'd0;
+          raddr = 64 + cycle_ct - 2;
+          waddr = 'd0;
         end else begin
+          // Step 7: Normal operation
           LFSR_en = 'b1;
-          raddr   = 64 + cycle_ct - 2;
+          raddr = 64 + cycle_ct - 2;
           data_in = data_out ^ {2'b00, LFSR_state[foundit]};
-
+          
+          // Step 8: Check underscore position
           if (last_underscore_position == cycle_ct - 1) begin
             if (data_in == 8'h5f) begin
               temp = 'b1;
             end
           end
 
+          // Step 9: Update write enable and address
           if (last_underscore_position != cycle_ct) begin
             wr_en = 'b1;
             waddr = cycle_ct - last_underscore_position - 1;
